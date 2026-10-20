@@ -1,0 +1,20 @@
+title: Jehun Lee
+description: >-
+  Ph.D. Student in Electrical and Computer Engineering
+  at Seoul National University.
+  VLSI Design and Efficient AI.
+author: Jehun Lee
+lang: en-US
+
+url: "https://jhlee2314.github.io"
+baseurl: ""
+repository: JHLee2314/JHLee2314.github.io
+
+theme: jekyll-theme-minimal
+show_downloads: false
+
+exclude:
+  - README.md
+  - AGENTS.md
+  - jehun-lee-github-pages-guide.md
+  - photo.jpg
