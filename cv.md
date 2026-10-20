@@ -33,16 +33,17 @@ Advisor: Prof. Jae-Joon Kim
 Ulsan National Institute of Science & Technology (UNIST)<br>
 March 2015 – August 2021
 
-## Selected Research Contributions
+## Selected Research
 
-- **MRAM-based analog computing-in-memory macro, IEEE Access 2026:** chip measurement system setup.
-- **eDRAM digital in-memory neural network accelerator, DATE 2025:** digital VLSI design through tape-out and chip measurement system setup.
-- **10T2C capacitive SRAM-based computing-in-memory macro, CICC 2024:** DNN noise-aware training and chip measurement.
-- **Floating-point activation with integer arithmetic, ICLR 2023:** digital design evaluation.
+- **PRESTE: Preserving Tiny Exponent Precision for Efficient Sub-8-bit LLM Inference and Fine-Tuning**, ICCAD 2026. First author. *To be presented.*
+- **Integer Unit-Based Outlier-Aware LLM Accelerator Preserving Numerical Accuracy of FP-FP GEMM**, DATE 2025. First author.
 
 See the [full publication list]({{ '/publications/' | relative_url }}) for paper titles, authors, and additional contributions.
 
-## Project Presentation
+## Selected Project
+
+**eDRAM Digital In-Memory Neural Network Accelerator — DATE 2025**<br>
+Contribution: digital VLSI design through tape-out and chip measurement system setup.
 
 **Energy-Efficient Computing-In-Memory based System-On-Chip Controlled by RISC-V Processor**<br>
 IDEC Chip Design Contest (CDC), 2024.<br>
@@ -51,7 +52,7 @@ Contribution: digital module design through tape-out and chip measurement.
 ## Honors
 
 **Hyundai Motor Chung Mong-Koo Foundation Scholarship**<br>
-2022–2024
+2022–2023
 
 ## Student Service
 

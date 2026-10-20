@@ -18,7 +18,7 @@ My research interests are VLSI design and efficient AI, with a focus on numerica
 - LLM hardware acceleration
 - Digital VLSI design and computing-in-memory systems
 
-## Selected Publications
+## Selected Research
 
 **PRESTE: Preserving Tiny Exponent Precision for Efficient Sub-8-bit LLM Inference and Fine-Tuning**<br>
 **Jehun Lee**, Hyesung Jeon, Juchan Lee, and Jae-Joon Kim.<br>
@@ -32,13 +32,10 @@ Design, Automation & Test in Europe Conference (**DATE**), pp. 1–7, 2025.<br>
 
 [View all publications]({{ '/publications/' | relative_url }})
 
-## Selected Design and Measurement Experience
+## Selected Project
 
 **eDRAM Digital In-Memory Neural Network Accelerator — DATE 2025**<br>
 Contribution: digital VLSI design through tape-out and chip measurement system setup.
-
-**10T2C Capacitive SRAM-Based Computing-In-Memory Macro — CICC 2024**<br>
-Contribution: DNN noise-aware training and chip measurement.
 
 **RISC-V-Controlled Computing-In-Memory SoC — IDEC Chip Design Contest 2024**<br>
 Contribution: digital module design through tape-out and chip measurement.
