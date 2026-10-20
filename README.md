@@ -1,7 +1,7 @@
 # Jehun Lee — Research Homepage
 
 Jehun Lee의 VLSI Design 및 Efficient AI 연구를 소개하는 영문 홈페이지입니다.
-GitHub Pages와 Jekyll Minimal 테마를 사용합니다.
+GitHub Pages와 Jekyll Minimal을 기반으로, 흰색 배경의 상단 메뉴와 연구자 소개 사이드바를 사용합니다.
 
 사이트 주소: <https://jhlee2314.github.io/>
 
@@ -13,7 +13,8 @@ GitHub Pages와 Jekyll Minimal 테마를 사용합니다.
 | `index.md` | 소개, 연구 관심사, 대표 논문, 설계·측정 경험 |
 | `publications.md` | 학회 논문 7편과 저널 논문 1편 |
 | `cv.md` | 학력, 연구 기여, 장학금, 활동 |
-| `assets/css/style.scss` | 글꼴, 링크, 모바일 화면 스타일 |
+| `_layouts/default.html` | 공통 상단 메뉴, 연구자 소개, 페이지 레이아웃 |
+| `assets/css/style.scss` | 흰색 배경, 글꼴, 이름 밑줄, 모바일 화면 스타일 |
 
 페이지 내용은 `jehun-lee-github-pages-guide.md`를 기준으로 작성했습니다.
 안내서, `AGENTS.md`, 원본 `photo.jpg`는 사이트 빌드에서 제외됩니다.
@@ -49,6 +50,7 @@ python3 -m http.server 4000 --bind 127.0.0.1 --directory _site
 
 논문 제목, 저자 순서, 학력, 기여 내용은 확인된 자료를 기준으로 수정하세요.
 PRESTE의 발표 상태를 바꿀 때는 `index.md`와 `publications.md`를 함께 갱신합니다.
+Publications에서 본인 이름에는 `author-name` 클래스를 사용해 굵게와 밑줄을 적용합니다.
 현재 사진과 다운로드용 CV PDF는 연결하지 않았습니다.
 
 사진을 추가할 때는 `assets/images/profile.jpg`에 저장하고 `_config.yml`에 다음 설정을 추가합니다.

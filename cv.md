@@ -4,8 +4,6 @@ title: CV
 permalink: /cv/
 ---
 
-[Home]({{ '/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }})
-
 # Curriculum Vitae
 
 ## Jehun Lee

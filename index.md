@@ -4,8 +4,6 @@ title: Home
 permalink: /
 ---
 
-[Home]({{ '/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }})
-
 # About
 
 I am a Ph.D. student in Electrical and Computer Engineering at Seoul National University, advised by Prof. Jae-Joon Kim.

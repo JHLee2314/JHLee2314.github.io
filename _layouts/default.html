@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="site-shell header-inner">
+        <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="primary-navigation" aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+          <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="site-shell page-layout">
+      <aside class="author-sidebar" aria-label="About {{ site.author }}">
+        {% if site.logo %}
+        <img class="author-photo" src="{{ site.logo | relative_url }}" alt="{{ site.author }}" width="176" height="176">
+        {% endif %}
+        <h2 class="author-name-heading">{{ site.author }}</h2>
+        <p class="author-role">Ph.D. Student</p>
+        <p class="author-affiliation">Electrical and Computer Engineering<br>Seoul National University</p>
+        <p class="author-bio">VLSI Design &amp; Efficient AI</p>
+        <ul class="author-links">
+          <li><a href="mailto:Jehun.lee@snu.ac.kr"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>Email</a></li>
+          <li><a href="https://scholar.google.com/citations?hl=en&amp;user=3xR-zbMAAAAJ"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 8 10-5 10 5-10 5-10-5Zm4 2v7c4 3 8 3 12 0v-7M22 8v9"/></svg>Google Scholar</a></li>
+          <li><a href="https://github.com/JHLee2314"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></svg>GitHub</a></li>
+        </ul>
+      </aside>
+      <main id="main-content" class="page-content" tabindex="-1">
+        {{ content }}
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-shell">&copy; {{ site.time | date: '%Y' }} {{ site.author }}</div>
+    </footer>
+  </body>
+</html>
